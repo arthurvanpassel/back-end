@@ -4,15 +4,6 @@ TODO APP
 ## Online versie site
 link naar online site: arthur.vanpassel.mtantwerp.eu
 
-## Login gegevens
-
-### user 1:
-    username: Arthur
-    password: arthur
-### user 2:
-    username: Sam
-    password: sam
-    
 ## Lokale site:
     
 ### database info
@@ -43,3 +34,12 @@ link naar online site: arthur.vanpassel.mtantwerp.eu
     php artisan migrate
     php artisan db:seed
     php artisan serve
+
+## Login gegevens
+
+### user 1:
+    username: Arthur
+    password: arthur
+### user 2:
+    username: Sam
+    password: sam

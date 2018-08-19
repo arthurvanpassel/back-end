@@ -5,12 +5,17 @@ TODO APP
 link naar online site: arthur.vanpassel.mtantwerp.eu
 
 ## Login gegevens
-   user 1:
-        username: Arthur
-        password: arthur
+user 1:
+   username: Arthur
+   password: arthur
+        
+        
     user 2:
+    
         username: Sam
+        
         password: sam
+        
 
 
 ## Lokale site:

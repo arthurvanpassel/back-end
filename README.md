@@ -5,40 +5,35 @@ TODO APP
 link naar online site: arthur.vanpassel.mtantwerp.eu
 
 ## Login gegevens
-user 1:
-   username: Arthur
-   password: arthur
-        
-        
-    user 2:
+
+### user 1:
+    username: Arthur
+    password: arthur
+### user 2:
+    username: Sam
+    password: sam
     
-        username: Sam
-        
-        password: sam
-        
-
-
 ## Lokale site:
     
 ### database info
-### config/database.php:
-'host' => env('DB_HOST', '127.0.0.1'),
-'port' => env('DB_PORT', '3306'),
-'database' => env('DB_DATABASE', 'todo'),
-'username' => env('DB_USERNAME', 'root'),
-'password' => env('DB_PASSWORD', 'root'),
-...
+#### config/database.php:
+    ...
+    'host' => env('DB_HOST', '127.0.0.1'),
+    'port' => env('DB_PORT', '3306'),
+    'database' => env('DB_DATABASE', 'todo'),
+    'username' => env('DB_USERNAME', 'root'),
+    'password' => env('DB_PASSWORD', 'root'),
+    ...
 
 #### .env
-...
-DB_CONNECTION=mysql
-DB_HOST=localhost
-DB_PORT=3306
-DB_DATABASE=todo
-DB_USERNAME=root
-DB_PASSWORD=root
-...
-
+    ...
+    DB_CONNECTION=mysql
+    DB_HOST=localhost
+    DB_PORT=3306
+    DB_DATABASE=todo
+    DB_USERNAME=root
+    DB_PASSWORD=root
+    ...
 
 ### run volgende code om site te starten:
 

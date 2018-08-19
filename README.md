@@ -5,7 +5,7 @@ TODO APP
 link naar online site: arthur.vanpassel.mtantwerp.eu
 
 ## Login gegevens
-    user 1:
+   user 1:
         username: Arthur
         password: arthur
     user 2:
@@ -16,7 +16,7 @@ link naar online site: arthur.vanpassel.mtantwerp.eu
 ## Lokale site:
     
 # database info
-    config/database.php:
+   config/database.php:
         ...
         'host' => env('DB_HOST', '127.0.0.1'),
         'port' => env('DB_PORT', '3306'),

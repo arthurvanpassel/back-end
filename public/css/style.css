@@ -1,0 +1,105 @@
+/* MAIN */
+
+body {
+    background-color: #e1e1e1;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+.container {
+    width: 60%;
+    max-width: 300px;
+    margin: 0 auto;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+/* LOGIN */
+
+form {
+    margin: 0;
+}
+
+.login input, .newTask input, .editTask input, .newUser input {
+    border-radius: 4px;
+    display: block;
+    margin: 0 0 10px 0;
+    -webkit-appearance: none;
+    border: 1px solid #bbb;
+    background: white;
+    padding: 4px;
+}
+
+form input:last-child {
+    margin: 0;
+}
+
+form input[type=submit]:hover {
+    background: #eee;
+    cursor: pointer;
+}
+
+
+p.error {
+    color: #aa0000;
+    margin: 0 0 10px 0;
+}
+
+/* LOGGeD IN */
+
+.container h2 {
+    margin: 0 0 15px 0;
+}
+
+.container h3 {
+    margin: 0;
+}
+
+/* HOME */
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul li {
+    line-height: 20px;
+}
+
+ul li p {
+    margin: 0 0 13px 25px;
+    height: 30px;
+}
+
+ul li p.late {
+    color: red;
+}
+
+ul.itemList li:last-child {
+    margin-bottom: 40px;
+}
+
+h1 {
+    margin: 0 0 15px 0;
+    padding: 0 0 15px 0;
+    font-size: 18px;
+    color: #41546c;
+    border-bottom: 1px solid #ccc;
+}
+
+small {
+    padding-left: 10px;
+}
+
+a:link, a:visited {
+    color: #4e7ea7;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
